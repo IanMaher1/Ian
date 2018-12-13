@@ -1,0 +1,113 @@
+@charset "utf-8";
+/* CSS Document */	
+* {font-family: sans-serif;
+				color: #333;
+				text-align: center;}
+			body {
+				background-image: "back.jpg";
+				width: 75%;
+				margin: 0 auto;}
+			#content {
+				overflow: auto;
+				text-align: center;}
+			#nav, #footer {
+				margin: 1%;}
+			
+			.image {
+				text-align: center;
+
+			}
+			.image img{
+				text-align: center;
+			}
+			.column1 {
+				width: 31.3%;
+				float: left;
+				margin: 1%;}
+			ul {
+				  list-style-type: none;
+				  margin: 0;
+				  padding: 0;
+				  overflow: hidden;
+				  background-color: white ;
+				}
+
+				li {
+				  float: left;
+				}
+
+				li a {
+				  display: block;
+				  color: #333;
+				  text-align: center;
+				  padding: 14px 16px;
+				  text-decoration: none;
+				}
+
+				li a:hover:not(.active) {
+				  background-color: #6EC902;
+				}
+
+				.active {
+				  background-color: #4CAF50;
+				}
+
+			{box-sizing: border-box;}
+			body {font-family: Verdana, sans-serif;}
+			.mySlides {display: none;}
+			img {vertical-align: middle;}
+
+			/* Slideshow container */
+			.slideshow-container {
+			  max-width: 1000px;
+			  position: relative;
+			  margin: auto;
+			}
+
+			/* The dots/bullets/indicators */
+			.dot {
+			  height: 15px;
+			  width: 15px;
+			  margin: 0 2px;
+			  background-color: #bbb;
+			  border-radius: 50%;
+			  display: inline-block;
+			  transition: background-color 0.6s ease;
+			}
+
+			.active {
+			  background-color: #717171;
+			}
+
+			/* Fading animation */
+			.fade {
+			  -webkit-animation-name: fade;
+			  -webkit-animation-duration: 1.5s;
+			  animation-name: fade;
+			  animation-duration: 1.5s;
+			}
+
+			@-webkit-keyframes fade {
+			  from {opacity: .4} 
+			  to {opacity: 1}
+			}
+
+			@keyframes fade {
+			  from {opacity: .4} 
+			  to {opacity: 1}
+			}
+
+			/* On smaller screens, decrease text size */
+			@media only screen and (max-width: 300px) {
+			  .text {font-size: 11px}
+			}
+
+			 #h1, #h2, #footer {
+				background-color: white ;
+				padding: 0.5em 0;}
+			#feature, .article {
+				height:120em;
+				float: left;
+				margin: 2%;
+				width: 95%;
+				background-color: white;}
